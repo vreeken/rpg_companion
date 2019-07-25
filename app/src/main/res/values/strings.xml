@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY baseurl "https://dndcompanion.com/api/">
+    <!ENTITY publicurl "https://dndcompanion.com/">
+]>
+
+<resources>
+    <string name="app_name">RPG Companion</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_title_string">Choose a section</string>
+    <string name="main_hooks_button_string">Hooks</string>
+    <string name="main_encounters_button_string">Encounters - Coming Soon</string>
+    <string name="main_puzzles_button_string">Puzzles - Coming Soon</string>
+    <string name="main_npc_gen_button_string">NPC Generator</string>
+    <string name="main_adventures_button_string">Adventures</string>
+
+    <string name="activity_link_button_string">www.adventurelookup.com</string>
+
+    <!-- URLS -->
+
+    <string name="url_register">&baseurl;register</string>
+    <string name="url_register2">&baseurl;register2</string>
+
+    <string name="url_confirm_email">&baseurl;confirm-email</string>
+    <string name="url_resend_email">&baseurl;resend-email</string>
+    <string name="url_create_pw_reset">&baseurl;create-password-reset</string>
+    <string name="url_reset_pw">&baseurl;reset-password</string>
+
+    <string name="url_get_account_info">&baseurl;admin/account</string>
+
+    <string name="url_login">&baseurl;login</string>
+    <string name="url_check_token">&baseurl;admin/check-token</string>
+
+    <string name="url_get_hooks">&baseurl;hooks</string>
+    <string name="url_get_hook">&baseurl;hooks</string>
+    <string name="url_submit_hook">&baseurl;hooks/new</string>
+
+    <string name="url_get_riddles">&baseurl;riddles</string>
+    <string name="url_get_riddle">&baseurl;riddles</string>
+    <string name="url_submit_riddle">&baseurl;riddles/new</string>
+
+    <string name="url_get_puzzles">&baseurl;puzzles</string>
+    <string name="url_get_puzzle">&baseurl;puzzles</string>
+    <string name="url_submit_puzzle">&baseurl;puzzles/new</string>
+
+    <string name="url_get_items">&baseurl;items</string>
+    <string name="url_get_item">&baseurl;items</string>
+    <string name="url_submit_item">&baseurl;items/new</string>
+
+    <string name="url_get_dungeons">&baseurl;dungeons</string>
+    <string name="url_get_dungeon">&baseurl;dungeons</string>
+    <string name="url_submit_dungeon">&baseurl;dungeons/new</string>
+
+    <string name="url_get_environments">&baseurl;maps/get-environments</string>
+    <string name="url_get_maps">&baseurl;maps</string>
+    <string name="url_get_map">&baseurl;maps</string>
+    <string name="url_submit_map">&baseurl;maps/new</string>
+    <string name="url_map_thumbs">&publicurl;map_thumbs/</string>
+
+
+    <string name="url_vote">&baseurl;vote</string>
+    <string name="url_bookmark">&baseurl;bookmark</string>
+    <string name="url_update_post">&baseurl;admin/update-post</string>
+    <string name="url_delete_post">&baseurl;admin/delete-post</string>
+
+    <string name="url_submit_comment">&baseurl;comments/post</string>
+    <string name="url_submit_post">&baseurl;posts/post</string>
+
+    <string name="url_get_release_notes">&baseurl;release-notes</string>
+
+    <string name="npc_activity_title">Generated NPC</string>
+
+
+    <string name="lbl_load_more">Load More</string>
+
+    <string-array name="sort_array">
+        <item>Random</item>
+        <item>Upvotes</item>
+        <item>Downvotes</item>
+        <item>Newest</item>
+        <item>Oldest</item>
+    </string-array>
+    <string-array name="filter_array">
+        <item>All Posts</item>
+        <item>Just Mine</item>
+        <item>Exclude Mine</item>
+        <item>Saved Posts</item>
+    </string-array>
+
+
+    <string name="tos_text">I agree to the Terms of Service</string>
+    <string name="url_get_news">&baseurl;get-mobile-news</string>
+
+</resources>

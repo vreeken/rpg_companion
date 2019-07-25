@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/new_pc_frag_ability_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Ability"
+        app:layout_constraintBottom_toBottomOf="@+id/new_pc_frag_ability_score_et"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/new_pc_frag_ability_score_et" />
+
+    <EditText
+        android:id="@+id/new_pc_frag_ability_score_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Ability Score"
+        android:inputType="number|numberSigned"
+        app:layout_constraintEnd_toStartOf="@+id/new_pc_frag_ability_score_extra_et"
+        app:layout_constraintStart_toEndOf="@+id/new_pc_frag_ability_name_tv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/new_pc_frag_ability_score_extra_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Score Extra"
+        android:inputType="number|numberSigned"
+        app:layout_constraintEnd_toStartOf="@+id/new_pc_frag_ability_score_total_tv"
+        app:layout_constraintStart_toEndOf="@+id/new_pc_frag_ability_score_et" />
+
+    <TextView
+        android:id="@+id/new_pc_frag_ability_score_total_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/new_pc_frag_ability_score_extra_et"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/new_pc_frag_ability_score_extra_et" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="@+id/new_pc_frag_ability_score_save_extra_et"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_pc_frag_ability_score_et" />
+
+    <CheckBox
+        android:id="@+id/new_pc_frag_ability_save_prof_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Proficient"
+        app:layout_constraintBottom_toBottomOf="@+id/new_pc_frag_ability_score_save_extra_et"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/new_pc_frag_ability_score_et" />
+
+    <EditText
+        android:id="@+id/new_pc_frag_ability_score_save_extra_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Save Extra"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toStartOf="@+id/new_pc_frag_ability_save_total_tv"
+        app:layout_constraintStart_toEndOf="@+id/new_pc_frag_ability_save_prof_cb"
+        app:layout_constraintTop_toBottomOf="@+id/new_pc_frag_ability_score_et" />
+
+    <TextView
+        android:id="@+id/new_pc_frag_ability_save_total_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/new_pc_frag_ability_score_save_extra_et"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_pc_frag_ability_score_et" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#111111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_pc_frag_ability_score_save_extra_et" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_release_notes"
+        android:title="Release Notes"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_login"
+        android:title="Login"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_register"
+        android:title="Register"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_account"
+        android:title="My Account"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_logout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_email"
+        android:title="Contact the Developer"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_credits"
+        android:title="Credits"
+        app:showAsAction="never"/>
+
+</menu>
